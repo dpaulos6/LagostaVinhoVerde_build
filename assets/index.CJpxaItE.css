@@ -1041,11 +1041,20 @@ body {
   .lg\:h-36 {
     height: 9rem;
   }
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+  .lg\:w-28 {
+    width: 7rem;
+  }
   .lg\:w-3\/5 {
     width: 60%;
   }
   .lg\:flex-row {
     flex-direction: row;
+  }
+  .lg\:gap-12 {
+    gap: 3rem;
   }
   .lg\:gap-16 {
     gap: 4rem;
@@ -1115,8 +1124,8 @@ body {
   .xl\:h-40 {
     height: 10rem;
   }
-  .xl\:w-40 {
-    width: 10rem;
+  .xl\:w-36 {
+    width: 9rem;
   }
   .xl\:gap-12 {
     gap: 3rem;
