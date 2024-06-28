@@ -837,37 +837,37 @@ video {
 }
 @font-face {
   font-family: Likely;
-  src: url(../fonts/likely-sans-regular.otf);
+  src: url(./fonts/likely-sans-regular.otf);
   font-weight: 400;
 }
 @font-face {
   font-family: Myriad Pro;
-  src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+  src: url(./fonts/MYRIADPRO-REGULAR.OTF);
   font-weight: 400;
 }
 @font-face {
   font-family: Myriad Pro;
-  src: url(../fonts/MYRIADPRO-SEMIBOLD.OTF);
+  src: url(./fonts/MYRIADPRO-SEMIBOLD.OTF);
   font-weight: 600;
 }
 @font-face {
   font-family: Myriad Pro;
-  src: url(../fonts/MYRIADPRO-BOLD.OTF);
+  src: url(./fonts/MYRIADPRO-BOLD.OTF);
   font-weight: 700;
 }
 @font-face {
   font-family: Abadi MT;
-  src: url(../fonts/Abadi-MT-Condensed-Extra-Bold-Regular-Font.ttf);
+  src: url(./fonts/Abadi-MT-Condensed-Extra-Bold-Regular-Font.ttf);
 }
 @font-face {
   font-family: Ela Sans;
-  src: url(../fonts/Ela-Sans-Bold-Regular.ttf);
+  src: url(./fonts/Ela-Sans-Bold-Regular.ttf);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Ela Sans;
-  src: url(../fonts/Ela-Sans-Bold-Italic.ttf);
+  src: url(./fonts/Ela-Sans-Bold-Italic.ttf);
   font-weight: 700;
   font-style: italic;
 }
