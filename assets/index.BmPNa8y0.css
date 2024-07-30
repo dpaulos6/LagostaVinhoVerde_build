@@ -428,9 +428,6 @@ video {
 .flex {
   display: flex;
 }
-.grid {
-  display: grid;
-}
 .hidden {
   display: none;
 }
@@ -499,6 +496,9 @@ video {
 .w-screen {
   width: 100vw;
 }
+.max-w-2xl {
+  max-width: 42rem;
+}
 .max-w-5xl {
   max-width: 64rem;
 }
@@ -563,9 +563,6 @@ video {
 }
 .animate-bounce {
   animation: bounce 1s infinite;
-}
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -1011,9 +1008,6 @@ body {
       rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y))
       scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
   .sm\:gap-10 {
     gap: 2.5rem;
   }
@@ -1119,6 +1113,9 @@ body {
   .md\:w-full {
     width: 100%;
   }
+  .md\:max-w-3xl {
+    max-width: 48rem;
+  }
   .md\:flex-none {
     flex: none;
   }
@@ -1138,6 +1135,9 @@ body {
   .md\:flex-row {
     flex-direction: row;
   }
+  .md\:flex-wrap {
+    flex-wrap: wrap;
+  }
   .md\:gap-12 {
     gap: 3rem;
   }
@@ -1152,6 +1152,10 @@ body {
   }
   .md\:gap-6 {
     gap: 1.5rem;
+  }
+  .md\:gap-x-12 {
+    -moz-column-gap: 3rem;
+    column-gap: 3rem;
   }
   .md\:px-12 {
     padding-left: 3rem;
@@ -1243,9 +1247,6 @@ body {
   .lg\:gap-16 {
     gap: 4rem;
   }
-  .lg\:gap-20 {
-    gap: 5rem;
-  }
   .lg\:gap-28 {
     gap: 7rem;
   }
@@ -1260,6 +1261,13 @@ body {
   }
   .lg\:gap-8 {
     gap: 2rem;
+  }
+  .lg\:gap-x-20 {
+    -moz-column-gap: 5rem;
+    column-gap: 5rem;
+  }
+  .lg\:gap-y-12 {
+    row-gap: 3rem;
   }
   .lg\:px-0 {
     padding-left: 0;
@@ -1336,6 +1344,9 @@ body {
   }
   .xl\:max-w-\[1400px\] {
     max-width: 1400px;
+  }
+  .xl\:max-w-\[80\%\] {
+    max-width: 80%;
   }
   .xl\:gap-12 {
     gap: 3rem;
